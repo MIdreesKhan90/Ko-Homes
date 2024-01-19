@@ -1,0 +1,29 @@
+.faq-bottom-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .left-nav,
+  .right-nav {
+    font-size: 21px;
+    font-weight: 700;
+    color: $secondary-color;
+    position: relative;
+    text-decoration: none;
+    i {
+      position: absolute;
+      font-size: 40px;
+      margin-top: -6px;
+    }
+  }
+  .left-nav {
+    i {
+      left: -60px;
+    }
+  }
+  .right-nav {
+    i {
+      right: -60px;
+    }
+  }
+}

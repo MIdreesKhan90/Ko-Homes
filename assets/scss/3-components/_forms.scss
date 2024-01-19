@@ -1,0 +1,162 @@
+/*----------------------*\
+    Forms Style
+\*----------------------*/
+
+.gform_wrapper input[type="radio"] {
+  appearance: none;
+  width: 13px;
+  height: 13px;
+  border: 1px solid $primary-color;
+  border-radius: 50%;
+  background-clip: content-box;
+  padding: 3px;
+  margin: 0px;
+}
+.gform_wrapper input[type="radio"]:checked {
+  background-color: $primary-color;
+}
+
+.gform_wrapper .gform_body .gform_fields {
+  input:not([type='submit'],[type='radio'],[type='checkbox']), textarea{
+    width: 100%;
+    border: none;
+    background: transparent;
+    border-bottom: 3px solid $primary-color;
+    padding: 10px 0;
+    color: #8E8E8E;
+    font-family: inherit;
+    font-size: 18px;
+    &:focus {
+      outline: none;
+    }
+  }  
+}
+
+.gform_wrapper .gfield .gfield_checkbox,
+.gform_wrapper .gfield .gfield_radio{
+  display: block !important;
+  margin: 15px 0;
+  @include grid-sm-down{
+    text-align: center;
+  }
+
+  > .gchoice{
+    display: inline-block;
+  }
+  label{
+    font-size: $font-size-5;
+    white-space: nowrap;
+    cursor: pointer;
+    color: #8E8E8E;
+    padding-left: 2px;
+    padding-right: 8px;
+  }
+}
+
+textarea{
+  font-size: 15px;
+  font-weight: 400;
+}
+
+
+.contact-form {
+  max-width: 648px;
+  margin: 0 auto;
+  @include grid-sm-down{
+    margin-bottom: 20px;
+  }
+  .btn {
+    margin-top: 20px;
+    @include grid-sm-down{
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+    }
+  }
+  p {
+    text-transform: initial;
+    font-size: 15px;
+  }
+}
+
+.subscribe-form {
+  .subscribe-input {
+    position: relative;
+    .form-input {
+      padding-right: 110px;
+    }
+    button {
+      position: absolute;
+      right: 0px;
+      width: 100px;
+      border: none;
+      background: none;
+      font-weight: 700;
+      color: $primary-color;
+      z-index: 1;
+      bottom: 3px;
+    }
+  }
+}
+
+.search-location {
+  .input-group {
+    position: relative;
+    input {
+      background-color: #fff;
+      border: 3px solid $primary-color;
+      border-radius: 70px;
+      font-size: 14px;
+      font-weight: 700;
+      color: $secondary-color;
+      width: 100%;
+      max-width: 548px;
+      height: 50px;
+      padding: 10px 50px 10px 10px;
+    }
+    i {
+      position: absolute;
+      right: 20px;
+      top: 15px;
+      font-size: 18px;
+      color: $primary-color;
+    }
+  }
+}
+
+.inline-select {
+  background: none;
+  border: none;
+  color: $primary-color;
+  font-size: 14px;
+  font-weight: 700;
+  &:focus {
+    outline: none;
+  }
+}
+
+.popup-modal-header {
+  .title {
+    letter-spacing: 2px;
+    font-size: 20px;
+    @include grid-md-down{
+      padding-right: 10px;
+    }
+  }
+}
+.popup-modal-body .gform_wrapper {
+  input:not([type="submit"],
+  [type="radio"], 
+  [type="checkbox"]), 
+  textarea   {
+    color: #8E8E8E;
+    font-family: inherit;
+    font-size: 18px;
+  }
+}
+.popup-modal-body {
+  > p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+}

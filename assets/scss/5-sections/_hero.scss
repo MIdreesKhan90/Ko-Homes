@@ -1,0 +1,216 @@
+/*---------------------*\
+    Hero Section Style
+\*---------------------*/
+
+.hero-section {
+  &.main {
+    height: 675px;
+    max-height: 70vh;
+
+    @include grid-md-down{
+      min-height: 0;
+    }
+    .title {
+      margin-bottom: 23px;
+    }
+    .desc {
+      max-width: 650px;
+      margin: 0 auto;
+      font-size: 21px;
+    }
+  }
+  &.sub {
+    min-height: 338px;
+    @include grid-md-down{
+      min-height: 265px;
+    }
+    .title {
+      margin-bottom: 14px;
+      max-width: 780px;
+    }
+  }
+  .btn {
+    margin: 28px auto 0;
+  }
+  .header-logo{
+    >figure{
+      @include grid-sm-down{
+        margin: 0;
+      }
+    }
+  }
+}
+
+.hero-single {
+  display: flex;
+  height: calc(100vh - 205px);
+  @include grid-sm-down{
+    flex-wrap: wrap;
+    height: auto !important;
+  }
+  .left,
+  .right {
+    flex: 0 0 auto;
+    width: 50%;
+    max-height: 770px;
+    @include grid-sm-down{
+      width: 100%;
+    }
+  }
+  .left {
+    @include grid-sm-down{
+      height: 423px;
+    }
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .right {
+    display: flex;
+    flex-direction: column;
+    @include grid-sm-down{
+      flex-direction: column-reverse;
+      position: relative;
+    }
+    .top{
+      //height: 50%;
+      max-height: calc((100vh - 205px)/2);
+      flex: 1 0 auto;
+      .acf-map,
+      iframe{
+        height: 100%;
+      }
+    }
+    .bottom {
+      padding: 5vh 80px;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      @include grid-md-down{
+        padding: 40px;
+      }
+      @include grid-sm-down{
+        min-height: 0;
+        flex: auto;
+      }
+
+
+
+      .location-title {
+        display: inline-block;
+        margin-right: 60px;
+        letter-spacing: 0.8px;
+        max-width: calc(100% - 224px);
+        @include grid-md-down{
+          max-width: initial;
+          margin-right: 0px;
+          margin-bottom: 10px;
+        }
+
+      }
+
+      .badge{
+        @include grid-sm-down{
+          position: absolute;
+          top: -60px;
+          width: 184px;
+          right: 37px;
+        }
+        @include grid-md-down{
+          position: unset;
+        }
+      }
+    }
+    .mb-40{
+      @include grid-sm-down{
+        margin-bottom: 20px !important;
+      }
+    }
+    
+    .breadcrumb{
+      display: none;
+      color: #fff;
+      @include grid-sm-down{
+        display: block;
+      }
+      li{
+        &:before{
+          color: $primary-color;
+        }
+        a{
+          color: #fff;
+        }
+      }
+    }
+  }
+  &.blog{
+    height: calc(100vh - 93px);
+    .right{
+      .top{
+        padding: 5vh 80px;
+        min-height: 0;
+        height: auto;
+        display: flex;
+        align-items: center;
+        @include grid-md-down{
+          padding: 40px;
+        }
+        @include grid-sm-down{
+          min-height: 0;
+        }h1{
+
+        }
+      }
+      .bottom{
+        height: auto;
+        display: block;
+        >a{
+          >h1{
+            @include grid-md-down{
+              font-size: 30px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.hero-bottom {
+  padding: 20px 0;
+  &.faq-nav-hero{
+    padding: 44px 0 56px;
+    h2 {
+      font-weight: 500;
+      margin-bottom: 20px;
+    }
+  }
+}
+
+.property-location {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 40px;
+  @include grid-md-down{
+    flex-direction: column;
+  }
+}
+
+.hero-bottom-img{
+  img{
+    width: 100%;
+    max-height: 400px;
+    background-color: #2b2e2e;
+    object-fit: cover;
+    @include grid-sm-down{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+}

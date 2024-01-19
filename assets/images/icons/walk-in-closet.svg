@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_56" data-name="Rectangle 56" width="30" height="30" transform="translate(415 2425)" fill="#2b2e2e"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_10" data-name="Mask Group 10" transform="translate(-415 -2425)" clip-path="url(#clip-path)">
+    <g id="Living_Spaces_Walk-in_closet_icon" data-name="Living Spaces_Walk-in closet icon" transform="translate(414.843 2424.843)">
+      <path id="Path_566" data-name="Path 566" d="M.631,9.473H29.684" fill="rgba(0,0,0,0)" stroke="#8e8e8e" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.947"/>
+      <path id="Path_567" data-name="Path 567" d="M.631,29.684V1.895A1.264,1.264,0,0,1,1.895.631H28.42a1.264,1.264,0,0,1,1.264,1.264V29.684" fill="rgba(0,0,0,0)" stroke="#8e8e8e" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.947"/>
+      <path id="Path_568" data-name="Path 568" d="M.631,14.526H8.21" fill="rgba(0,0,0,0)" stroke="#8e8e8e" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.947"/>
+      <path id="Path_569" data-name="Path 569" d="M.631,19.577H8.21" fill="rgba(0,0,0,0)" stroke="#8e8e8e" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.947"/>
+      <path id="Path_570" data-name="Path 570" d="M.631,25.894H8.21" fill="rgba(0,0,0,0)" stroke="#8e8e8e" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.947"/>
+      <path id="Path_571" data-name="Path 571" d="M25.261,21.9a1.468,1.468,0,0,1-1.468,1.468H15.362a1.468,1.468,0,0,1-.464-2.861l4.68-1.349,4.674,1.349a1.468,1.468,0,0,1,1.01,1.393Z" fill="rgba(0,0,0,0)" stroke="#8e8e8e" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.947"/>
+      <path id="Path_572" data-name="Path 572" d="M17.9,14.947a1.684,1.684,0,1,1,2.4,1.516,1.264,1.264,0,0,0-.722,1.137v1.548" fill="rgba(0,0,0,0)" stroke="#8e8e8e" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.947"/>
+      <path id="Path_573" data-name="Path 573" d="M14.526,8.21a1.264,1.264,0,0,1-1.264,1.264H5.684a1.264,1.264,0,0,1,0-2.526h7.579A1.264,1.264,0,0,1,14.526,8.21Z" fill="rgba(0,0,0,0)" stroke="#8e8e8e" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.947"/>
+      <path id="Path_574" data-name="Path 574" d="M14.526,5.684a1.264,1.264,0,0,1-1.264,1.264H5.684a1.264,1.264,0,0,1,0-2.527h7.579A1.264,1.264,0,0,1,14.526,5.684Z" fill="rgba(0,0,0,0)" stroke="#8e8e8e" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.947"/>
+      <path id="Path_575" data-name="Path 575" d="M8.21,14.526h6.948" fill="rgba(0,0,0,0)" stroke="#8e8e8e" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.947"/>
+      <path id="Path_576" data-name="Path 576" d="M24,14.526h5.684" fill="rgba(0,0,0,0)" stroke="#8e8e8e" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.947"/>
+      <path id="Path_577" data-name="Path 577" d="M8.21,29.684V9.473" fill="rgba(0,0,0,0)" stroke="#8e8e8e" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.947"/>
+    </g>
+  </g>
+</svg>

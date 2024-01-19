@@ -1,0 +1,69 @@
+/*-----------------*\
+    Buttons Style
+\*-----------------*/
+.gform_button.button,
+.btn:not(.menu-item),
+.btn.menu-item a{
+  display: inline-block;
+  padding: 9px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.gform_button.button,
+.btn-brown {
+  border: 1px solid $primary-color;
+  background-color: $primary-color;
+  color: #fff;
+  cursor: pointer;
+  font-size: 15px;
+  letter-spacing: 1px;
+  &:hover {
+    background-color: #937C5A;
+    border: 1px solid #937C5A;
+  }
+}
+
+.gform_button.button,
+.btn-rounded:not(.menu-item),
+.btn-rounded.menu-item a{
+  border-radius: 25px;
+}
+
+.btn-outline-brown:not(.menu-item),
+.btn-outline-brown.menu-item a{
+  color: $primary-color;
+  border: 1px solid $primary-color;
+
+  .active &,
+  &.active,
+  &:hover {
+    background-color: $primary-color;
+    color: #fff;
+  }
+}
+
+.active .btn-outline-brown.menu-item a {
+  @include grid-md-down {
+    margin-top: 30px;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #ab9472;
+    background-color: transparent;
+    border: 1px solid #ab9472;
+  }
+}
+
+.link {
+  font-size: $font-size-6;
+  color: $primary-color;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 8px 0;
+  text-decoration: none;
+  border-bottom: 1px solid $primary-color;
+  display: inline-block;
+}

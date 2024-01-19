@@ -1,0 +1,33 @@
+/*-----------------*\
+    Text Helpers Style
+\*-----------------*/
+
+.text-center {
+  text-align: center;
+}
+.text-right {
+  text-align: right;
+}
+
+.text-primary-clr {
+  color: $primary-color;
+}
+.text-secondry-clr {
+  color: $secondary-color;
+}
+.text-white {
+  color: #fff;
+}
+.text-blue {
+  color: $nefarious-blue;
+}
+.text-limo {
+  color: $stretch-limo;
+}
+.text-haven {
+  color: $winter-haven;
+}
+
+.decoration-none{
+  text-decoration: none;
+}

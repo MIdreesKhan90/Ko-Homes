@@ -1,0 +1,132 @@
+/*-----------------*\
+    Footer Style
+\*-----------------*/
+
+.social-links {
+  label {
+    font-size: 14px;
+    font-weight: 700;
+    color: $dugong;
+    text-transform: uppercase;
+    margin-right: 20px;
+    vertical-align: middle;
+  }
+  a {
+    display: inline-block;
+    margin-left: 10px;
+    width: 25px;
+    height: 25px;
+    background-color: $primary-color;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 25px;
+    color: $stretch-limo;
+  }
+}
+.footer-widget {
+  .title {
+    color: $dugong;
+    font-size: 15px;
+    letter-spacing: 1px;
+  }
+  .menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    li {
+      margin-top: 14px;
+      a {
+        color: white;
+        font-weight: 700;
+        font-size: 15px;
+        text-decoration: none;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+      }
+    }
+  }
+}
+
+.footer-top {
+  @include grid-sm-down{
+    text-align: center;
+  }
+  .row {
+    .col {
+      width: 20%;
+      @include grid-sm-down{
+        order: 3;
+        width: 50%;
+      }
+
+      &:nth-child(1) {
+        @include grid-sm-down{
+          width: 100%;
+          order: 1;
+          margin-bottom: 20px;
+        }
+      }
+      &:nth-child(4) {
+        width: 40%;
+        @include grid-sm-down{
+          width: 100%;
+          order: 2;
+          margin-bottom: 30px;
+        }
+      }
+    }
+  }
+  .social-links{
+    text-align: right;
+    @include grid-sm-down{
+      text-align: center;
+    }
+  }
+}
+.footer-bottom {
+  margin-top: 140px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-end;
+
+  @include grid-sm-down{
+    margin-top: 70px;
+    text-align: center;
+  }
+  @include grid-md-down{
+    margin-top: 70px;
+    text-align: center;
+  }
+  > div{
+    @include grid-sm-down{
+      width: 100%;
+    }
+
+    &:first-child {
+     max-width: 565px;
+      @include grid-md-down{
+        max-width: 100%;
+        text-align: center;
+      }
+      @include grid-sm-down{
+        margin-bottom: 20px;
+        max-width: 100%;
+      }
+    }
+    &:last-of-type {
+      max-width: 565px;
+      @include grid-md-down{
+        margin: 10px auto 0;
+      }
+    }
+  }
+  p {
+    font-size: 13px;
+  }
+
+  a {
+    color: $secondary-color;
+  }
+}

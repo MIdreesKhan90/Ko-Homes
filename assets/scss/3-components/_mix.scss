@@ -1,0 +1,29 @@
+
+/*-----------------*\
+    Mix Components Style
+\*-----------------*/
+
+
+.breadcrumb {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  li {
+    display: inline;
+    font-size: 14px;
+    + li:before {
+      color: $stretch-limo;
+      content: "/\00a0";
+    }
+
+    a {
+      color: $stretch-limo;
+      text-decoration: none;
+      font-size: 14px;
+      &:hover {
+        color: $primary-color;
+        text-decoration: underline;
+      }
+    }
+  }
+}

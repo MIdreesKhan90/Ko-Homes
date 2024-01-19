@@ -1,0 +1,29 @@
+/*-----------------*\
+    Home Page Style
+\*-----------------*/
+
+.property-details {
+  list-style: none;
+  padding: 0;
+  @include grid-sm-down {
+    display: flex;
+    justify-content: space-around;
+  }
+  > li {
+    display: inline-block;
+    + li {
+      margin-left: 15px;
+    }
+    i {
+      margin-right: 10px;
+    }
+  }
+
+  li{
+    @include grid-sm-down{
+      margin-left: 0px !important;
+      margin-bottom: 5px;
+    }
+  }
+
+}

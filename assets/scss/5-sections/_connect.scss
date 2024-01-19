@@ -1,0 +1,39 @@
+.connect-section{
+  position: relative;
+  padding: 60px 0px;
+  overflow: hidden;
+  .container {
+    z-index: 10;
+    position: relative;
+  }
+  .section-title{
+    letter-spacing: 4px;
+    @include grid-sm-down{
+      text-align: center;
+    }
+  }
+  .contact-form{
+    @include grid-sm-down{
+      margin-top: 20px;
+    }
+  }
+  &:before {
+    content: "";
+    display: block;
+    position: absolute;
+    background-image: url('https://ko-homes.stonedigital.dev/wp-content/themes/ko-homes/assets/images/ko-homes-half-symbol.png');
+    background-size: cover;
+    width: 160px;
+    height: 370px;
+    background-position: 50%;
+    right: 0px;
+    top: 0px;
+    transform: translateY(40%);
+    opacity: 25%;
+  }
+  .col-6:first-of-type{
+    @include grid-sm-up{
+      padding-right: 60px;
+    }
+  }
+}

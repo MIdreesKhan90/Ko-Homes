@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_67" data-name="Rectangle 67" width="30" height="30" transform="translate(967 2468)" fill="#2b2e2e"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_16" data-name="Mask Group 16" transform="translate(-967 -2468)" clip-path="url(#clip-path)">
+    <g id="Proximity_Beach_access_icon" data-name="Proximity_Beach access icon" transform="translate(966.937 2467.919)">
+      <g id="Group_16" data-name="Group 16">
+        <circle id="Ellipse_33" data-name="Ellipse 33" cx="2.514" cy="2.514" r="2.514" transform="translate(12.572 9.428)" fill="rgba(0,0,0,0)" stroke="#8e8e8e" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.943"/>
+        <path id="Path_799" data-name="Path 799" d="M29.543,29.4a5.293,5.293,0,0,1-5.1-2.514h0a5.519,5.519,0,0,1-4.55,2.589,4.8,4.8,0,0,1-4.162-2.589h0a6.662,6.662,0,0,1-4.941,2.589,5.783,5.783,0,0,1-4.5-2.565h0S3.771,30.171.628,29.455" fill="rgba(0,0,0,0)" stroke="#8e8e8e" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.943"/>
+        <line id="Line_156" data-name="Line 156" x1="2.037" y2="15.325" transform="translate(7.392 5.783)" fill="none" stroke="#8e8e8e" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.943"/>
+        <path id="Path_800" data-name="Path 800" d="M17.6,6.713a.628.628,0,0,0,.6-.981A11.314,11.314,0,0,0,.892,3.771a.628.628,0,0,0,.364,1.081Z" fill="rgba(0,0,0,0)" stroke="#8e8e8e" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.943"/>
+        <path id="Path_801" data-name="Path 801" d="M26.941,24.452l-1.9-2.64a1.446,1.446,0,0,0-1.635-.175l-3.771,3.093a1.471,1.471,0,0,1-1.258.289,1.4,1.4,0,0,1-.981-.754L15.474,20.43l-3.532,4.135a1.433,1.433,0,0,1-2.023.138,1.458,1.458,0,0,1-.138-2.074l5.027-5.746a1.5,1.5,0,0,1,1.258-.477,1.42,1.42,0,0,1,1.094.779l2.087,4.186,2.414-2a4.286,4.286,0,0,1,5.633.666l1.974,2.753a1.433,1.433,0,1,1-2.325,1.673Z" fill="rgba(0,0,0,0)" stroke="#8e8e8e" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.943"/>
+      </g>
+    </g>
+  </g>
+</svg>

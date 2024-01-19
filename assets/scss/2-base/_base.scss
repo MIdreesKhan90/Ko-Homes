@@ -1,0 +1,151 @@
+/*--------------*\
+    Base Style
+\*--------------*/
+
+@import url("https://use.typekit.net/xbg6yws.css");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: $main-font-size;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: $main-font-family;
+  background-color: #fff;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(#000, 0);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+.h1,
+h1,
+.h2,
+h2,
+.h3,
+h3,
+.h4,
+h4,
+.h5,
+h5,
+.h6,
+h6 {
+  color: $primary-color;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.font-size-1,
+.h1,
+h1 {
+  font-size: $header1;
+  line-height: 1.34em;
+}
+.font-size-2,
+.h2,
+h2 {
+  font-size: $header2;
+}
+.font-size-3,
+.h3,
+h3 {
+  font-size: $header3;
+}
+.font-size-4,
+.h4,
+h4 {
+  font-size: $header4;
+}
+.font-size-5,
+.h5,
+h5 {
+  font-size: $header5;
+}
+.font-size-6,
+.h6,
+h6 {
+  font-size: $header6;
+}
+.ul-list>li{
+  font-size: $para-size;
+  color: $secondary-color;
+  font-weight: 300;
+}
+.p,
+p {
+  font-size: $para-size;
+  color: $secondary-color;
+  font-weight: 300;
+  + p {
+    margin-top: 20px;
+  }
+}
+p > a {
+  color: #ab9472;
+}
+
+img,
+svg {
+  vertical-align: middle;
+}
+button {
+  cursor: pointer;
+}
+input {
+  &:focus {
+    outline: none;
+  }
+}
+
+.mobile{
+  display: none;
+  @include grid-sm-down{
+    display: block;
+  }
+}
+.blog-content {
+  h2 {
+    margin-top: 20px;
+  }
+  h3 {
+    margin-top: 20px;
+  }
+}
+.wp-block-image {
+  margin-top: 20px;
+  figcaption {
+    text-align: center;
+    color: #AB9472;
+    font-style: italic;
+    font-size: 20px;
+    line-height: 1;
+  }
+}
+
+.wp-block-image.is-style-circle-mask img,
+.wp-block-image.is-style-rounded img,
+.wp-block-image .is-style-rounded img {
+  border-radius: 20px;
+}
+
+select:focus-visible {
+  outline: none;
+}

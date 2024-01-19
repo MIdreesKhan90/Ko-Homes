@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_49" data-name="Rectangle 49" width="30" height="30" transform="translate(139 2425)" fill="#2b2e2e"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_9" data-name="Mask Group 9" transform="translate(-139 -2425)" clip-path="url(#clip-path)">
+    <g id="Living_Spaces_Kitchen_island_icon" data-name="Living Spaces_Kitchen island icon" transform="translate(138.843 2424.843)">
+      <path id="Path_482" data-name="Path 482" d="M.629,9.451H15.342A1.261,1.261,0,0,1,16.6,10.712v1.261a1.261,1.261,0,0,1-1.261,1.259H.629" fill="rgba(0,0,0,0)" stroke="#8e8e8e" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.945"/>
+      <path id="Path_483" data-name="Path 483" d="M4.41,29.613V13.231" fill="rgba(0,0,0,0)" stroke="#8e8e8e" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.945"/>
+      <path id="Path_484" data-name="Path 484" d="M9.451.629H6.931L6.364,4.57A1.512,1.512,0,0,0,7.863,6.3h.643a1.512,1.512,0,0,0,1.512-1.728Z" fill="rgba(0,0,0,0)" stroke="#8e8e8e" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.945"/>
+      <path id="Path_485" data-name="Path 485" d="M8.19,6.3V9.451" fill="rgba(0,0,0,0)" stroke="#8e8e8e" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.945"/>
+      <path id="Path_486" data-name="Path 486" d="M20.792,14.492h7.561a1.261,1.261,0,0,1,1.261,1.261v1.89a.629.629,0,0,1-.629.629H20.162a.629.629,0,0,1-.629-.629v-1.89a1.261,1.261,0,0,1,1.259-1.261Z" fill="rgba(0,0,0,0)" stroke="#8e8e8e" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.945"/>
+      <path id="Path_487" data-name="Path 487" d="M21.421,18.272l-1.89,11.341" fill="rgba(0,0,0,0)" stroke="#8e8e8e" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.945"/>
+      <path id="Path_488" data-name="Path 488" d="M27.723,18.272l1.89,11.341" fill="rgba(0,0,0,0)" stroke="#8e8e8e" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.945"/>
+      <path id="Path_489" data-name="Path 489" d="M20.6,23.311h7.956" fill="rgba(0,0,0,0)" stroke="#8e8e8e" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.945"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_57" data-name="Rectangle 57" width="30" height="30" transform="translate(415 2468)" fill="#2b2e2e"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_14" data-name="Mask Group 14" transform="translate(-415 -2468)" clip-path="url(#clip-path)">
+    <g id="Outdoor_Living_Spaces_Deck_icon" data-name="Outdoor Living Spaces_Deck icon" transform="translate(415.038 2467.705)">
+      <line id="Line_167" data-name="Line 167" y2="15.151" transform="translate(4.363 12.469)" fill="none" stroke="#8e8e8e" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.935"/>
+      <line id="Line_168" data-name="Line 168" y2="15.151" transform="translate(25.561 12.469)" fill="none" stroke="#8e8e8e" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.935"/>
+      <path id="Path_852" data-name="Path 852" d="M.623,15.585,14.962,2.493,29.3,15.585" fill="rgba(0,0,0,0)" stroke="#8e8e8e" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.935"/>
+      <rect id="Rectangle_30" data-name="Rectangle 30" width="3.741" height="3.741" rx="1.87" transform="translate(13.092 11.844)" fill="rgba(0,0,0,0)" stroke="#8e8e8e" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.935"/>
+      <path id="Path_1331" data-name="Path 1331" d="M.623,29.3H25.249" transform="translate(2.155 -3.494)" fill="rgba(0,0,0,0)" stroke="#8e8e8e" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.935"/>
+      <path id="Path_1332" data-name="Path 1332" d="M.623,29.3H26.575" transform="translate(1.494 -1.204)" fill="rgba(0,0,0,0)" stroke="#8e8e8e" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.935"/>
+      <path id="Path_1333" data-name="Path 1333" d="M10.6,14.339h3.479v6.806H10.6Z" transform="translate(2.757 6.952)" fill="rgba(0,0,0,0)" stroke="#8e8e8e" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.935"/>
+      <path id="Path_1334" data-name="Path 1334" d="M0,0H2.289" transform="translate(3.247 25.808) rotate(90)" fill="rgba(0,0,0,0)" stroke="#8e8e8e" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.935"/>
+      <path id="Path_1335" data-name="Path 1335" d="M0,0H2.289" transform="translate(18.695 25.808) rotate(90)" fill="rgba(0,0,0,0)" stroke="#8e8e8e" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.935"/>
+      <path id="Path_1336" data-name="Path 1336" d="M0,0H2.289" transform="translate(11.495 25.808) rotate(90)" fill="rgba(0,0,0,0)" stroke="#8e8e8e" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.935"/>
+      <path id="Path_1337" data-name="Path 1337" d="M0,0H2.289" transform="translate(26.941 25.808) rotate(90)" fill="rgba(0,0,0,0)" stroke="#8e8e8e" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.935"/>
+      <path id="Path_1338" data-name="Path 1338" d="M0,0H2.289" transform="translate(7.893 25.808) rotate(90)" fill="rgba(0,0,0,0)" stroke="#8e8e8e" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.935"/>
+      <path id="Path_1339" data-name="Path 1339" d="M0,0H1.966" transform="translate(22.296 26.132) rotate(90)" fill="rgba(0,0,0,0)" stroke="#8e8e8e" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.935"/>
+    </g>
+  </g>
+</svg>

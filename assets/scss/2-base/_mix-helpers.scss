@@ -1,0 +1,267 @@
+/*-----------------*\
+    Mix Helpers Style
+\*-----------------*/
+
+.box-glow {
+  -webkit-box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+// page seperator
+.single-about-section .col-6 {
+  @include grid-sm-up {
+      padding-right: 50px;
+  }
+}
+.separator-with-text {
+  display: flex;
+  align-items: center;
+  &:before,
+  &:after {
+    flex: 1;
+    width: 100%;
+    content: "";
+    display: inline-block;
+    border-bottom: 1px solid $grey-light;
+  }
+  &:before {
+    margin-right: 20px;
+  }
+  &:after {
+    margin-left: 20px;
+  }
+}
+
+.img-fluid {
+  max-width: 100%;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+}
+
+.mobile-no-bg {
+  @include grid-sm-down {
+    background: none !important;
+  }
+}
+
+.w-100 {
+  width: 100%;
+}
+.h-auto{
+  height: auto;
+}
+.rounded {
+  border-radius: 20px;
+}
+
+.section {
+  padding: 60px 0px;
+  @include grid-sm-down{
+    padding: 36px 0px 15px;
+  }
+}
+
+.content-section {
+  padding: 50px 0px;
+  @include grid-sm-down{
+    padding: 30px 0px;
+  }
+  @include grid-md-down{
+    padding: 15px 0px;
+  }
+}
+.content-section {
+  h4 {
+    color: #2b2e2e;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    font-weight: 400;
+  }
+  h2 {
+    margin-bottom: 10px;
+  }
+} 
+.section-pre-title {
+  color: $stretch-limo;
+  margin-bottom: 13px;
+  text-transform: capitalize;
+  font-weight: 400;
+}
+
+.embed-video {
+  position: relative;
+  width: 100%;
+  &::before {
+    display: block;
+    padding-top: 56.25%;
+    content: "";
+  }
+  > * {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+/* Containers & Rows */
+.container {
+  max-width: 1118px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.container-fluid {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -15px;
+  margin-right: -15px;
+  > * {
+    max-width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  > .col-3 {
+    flex: 0 0 auto;
+    width: 25%;
+    @include grid-sm-down{
+      width: 100%;
+    }
+  }
+  > .col-4 {
+    flex: 0 0 auto;
+    width: 33.33333333%;
+    @include grid-md-down{
+      width: 50%;
+    }
+    @include grid-sm-down{
+      width: 100%;
+    }
+  }
+  > .col-6 {
+    flex: 0 0 auto;
+    width: 50%;
+    @include grid-sm-down{
+      width: 100%;
+    }
+  }
+
+  > .col-12 {
+    flex: 0 0 auto;
+    width: 100%;
+    @include grid-sm-down{
+      width: 100%;
+    }
+  }
+  &-8 {
+    margin-left: -8px;
+    margin-right: -8px;
+    > div[class^="col"] {
+      padding-left: 8px;
+      padding-right: 8px;
+    }
+  }
+  &-0 {
+    margin-left: 0;
+    margin-right: 0;
+    > div[class^="col"] {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+}
+
+/* Margins & Paddings */
+.mb-0 {
+  margin-bottom: 0 !important;
+}
+.mb-10 {
+  margin-bottom: 10px !important;
+}
+.mb-sm-10{
+  @include grid-sm-down{
+    margin-bottom: 10px;
+  }
+}
+
+.mb-15 {
+  margin-bottom: 15px !important;
+}
+.mb-20 {
+  margin-bottom: 20px !important;
+}
+.mb-sm-20{
+  @include grid-sm-down{
+    margin-bottom: 20px;
+  }
+}
+
+.mt-30 {
+  margin-top: 30px !important;
+}
+.mb-30 {
+  margin-bottom: 30px !important;
+}
+
+.mt-40 {
+  margin-top: 40px !important;
+}
+.mb-40 {
+  margin-bottom: 40px !important;
+}
+
+.mb-60 {
+  margin-bottom: 60px !important;
+}
+.mb-80 {
+  margin-bottom: 80px !important;
+}
+.mt-80 {
+  margin-top: 80px !important;
+}
+.mt-100 {
+  margin-top: 100px !important;
+}
+.mt-115 {
+  margin-top: 115px !important;
+  @include grid-md-down{
+    margin-top: 50px !important;
+  }
+}
+.mt-20 {
+  margin-top: 20px !important;
+  margin-bottom: 5px !important;
+}
+.mb-115 {
+  margin-bottom: 115px !important;
+  @include grid-md-down{
+    margin-bottom: 50px !important;
+  }
+}
+
+.m-w-442{
+  max-width: 442px;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.col-count-2,
+.list-flex-2-col{
+  column-count: 2;
+  @include grid-sm-down{
+    column-count: 1;
+  }
+}

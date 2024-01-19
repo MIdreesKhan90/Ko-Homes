@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_61" data-name="Rectangle 61" width="30" height="30" transform="translate(691 2425)" fill="#2b2e2e"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_11" data-name="Mask Group 11" transform="translate(-691 -2425)" clip-path="url(#clip-path)">
+    <g id="Outdoor_Entertainment_Outdoor_entertaining_icon" data-name="Outdoor Entertainment_Outdoor entertaining  icon" transform="translate(690.868 2424.899)">
+      <path id="Path_588" data-name="Path 588" d="M8.659,11.577a3.258,3.258,0,0,0,6.511,0,3.258,3.258,0,0,0,6.511,0,3.215,3.215,0,0,0,3.255,3.152,2.672,2.672,0,0,0,2.725-1.95,2.472,2.472,0,0,0-.688-2.383L15.989.942a1.261,1.261,0,0,0-1.64,0L3.192,10.462a2.458,2.458,0,0,0-.62,2.18,2.748,2.748,0,0,0,2.837,2.08,3.215,3.215,0,0,0,3.251-3.145" fill="rgba(0,0,0,0)" stroke="#8e8e8e" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.946"/>
+      <path id="Path_589" data-name="Path 589" d="M15.169,29.628V11.551" fill="rgba(0,0,0,0)" stroke="#8e8e8e" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.946"/>
+      <path id="Path_590" data-name="Path 590" d="M3.822,18.281l1.261,5.673h5.044a1.261,1.261,0,0,1,1.261,1.261v4.412" fill="rgba(0,0,0,0)" stroke="#8e8e8e" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.946"/>
+      <path id="Path_591" data-name="Path 591" d="M5.083,23.955v5.673" fill="rgba(0,0,0,0)" stroke="#8e8e8e" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.946"/>
+      <path id="Path_592" data-name="Path 592" d="M26.515,18.281l-1.261,5.673H20.212a1.261,1.261,0,0,0-1.261,1.261v4.412" fill="rgba(0,0,0,0)" stroke="#8e8e8e" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.946"/>
+      <path id="Path_593" data-name="Path 593" d="M25.256,23.955v5.673" fill="rgba(0,0,0,0)" stroke="#8e8e8e" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.946"/>
+    </g>
+  </g>
+</svg>

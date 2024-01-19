@@ -1,0 +1,136 @@
+/*------------------------------*\
+    Property Single Page Style
+\*------------------------------*/
+
+.badge {
+  display: inline-block;
+  background-color: $primary-color;
+  color: #fff;
+  padding: 8px 15px;
+  border-radius: 20px;
+  font-size: 11px;
+  font-weight: 700;
+  i {
+    border: 1px solid #fff;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 9px;
+    line-height: 15px;
+    margin-right: 7px;
+  }
+}
+
+.single-property-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  .left {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    > div {
+      display: inline-block;
+      @include grid-sm-down{
+        display: block;
+        width: 100%;
+      }
+      + div {
+        margin-left: 60px;
+        @include grid-sm-down{
+          margin-left: 0;
+          margin-top: 20px;
+        }
+      }
+
+      h6 {
+        color: $primary-color;
+      }
+      p {
+        font-size: 18px;
+        color: $secondary-color;
+      }
+    }
+    @include grid-sm-down{
+      order: 2;
+      width: 100%;
+    }
+  }
+  .right{
+    @include grid-sm-down{
+      order: 1;
+      width: 100%;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+  }
+  .location {
+    max-width: 420px;
+  }
+  .detail-links {
+    a + a {
+      margin-left: 28px;
+    }
+    a {
+      text-decoration: none;
+      vertical-align: middle;
+      font-size: 30px;
+      color: $primary-color;
+      display: inline-block;
+      line-height: 1em;
+    }
+  }
+}
+
+
+
+.features-list {
+  list-style: none;
+  padding: 0px;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  //justify-content: space-between;
+  width: 100%;
+  li {
+    margin-bottom: 26px;
+    color: #8E8E8E;
+    font-size: 18px;
+    display: flex;
+    justify-content: flex-start;
+    letter-spacing: 0.5px;
+    
+    min-width: 25%;
+
+    @include grid-x-xs-only {
+      width: 100%;
+      justify-content: center;
+    }
+  }
+  i {
+    margin-right: 24px;
+  }
+}
+
+
+
+
+.single-about-section{
+  padding-top: 40px;
+  .breadcrumb{
+    @include grid-sm-down{
+      display: none;
+    }
+  }
+  .table-card{
+    .header {
+      letter-spacing: 2px;
+    }
+    margin-bottom: 40px;
+    @include grid-sm-down{
+      margin-bottom: 20px;
+    }
+  }
+}

@@ -1,0 +1,17 @@
+.team-profile {
+  text-align: center;
+  margin-bottom: 20px;
+  .avatar {
+    width: 163px;
+    height: 163px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto 45px;
+    img{
+      width: 100%;
+    }
+  }
+  .title {
+    margin-bottom: 15px;
+  }
+}

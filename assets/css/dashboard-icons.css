@@ -1,0 +1,225 @@
+/*-----------------*\
+    Icons Style
+\*-----------------*/
+.acf-field-62e1e504a9ea8 ul.acf-checkbox-list { 
+  column-count: 4;
+}
+.icon {
+  display: inline-block;
+  vertical-align: middle;
+}
+.icon-bed {
+  width: 20px;
+  height: 16px;
+  background: url("https://ko.homes/wp-content/themes/ko-homes/assets/images/icons/bed.svg") no-repeat center;
+}
+.icon-bath {
+  width: 20px;
+  height: 18px;
+  background: url("https://ko.homes/wp-content/themes/ko-homes/assets/images/icons/bath.svg") no-repeat center;
+}
+.icon-area {
+  width: 20px;
+  height: 17px;
+  background: url("https://ko.homes/wp-content/themes/ko-homes/assets/images/icons/area.svg") no-repeat center;
+}
+.icon-play {
+  width: 30px;
+  height: 30px;
+  background: url("https://ko.homes/wp-content/themes/ko-homes/assets/images/icons/play.svg") no-repeat center;
+}
+.icon-360 {
+  width: 30px;
+  height: 30px;
+  background: url("https://ko.homes/wp-content/themes/ko-homes/assets/images/icons/360.svg") no-repeat center;
+  background-size: 100%;
+}
+.icon-pdf {
+  width: 30px;
+  height: 30px;
+  background: url("https://ko.homes/wp-content/themes/ko-homes/assets/images/icons/pdf.svg") no-repeat center;
+}
+.icon-elevator {
+  width: 30px;
+  height: 30px;
+  background: url("https://ko.homes/wp-content/themes/ko-homes/assets/images/icons/elevator.svg") no-repeat center;
+}
+.icon-2-car-garage {
+  width: 30px;
+  height: 30px;
+  background: url("https://ko.homes/wp-content/themes/ko-homes/assets/images/icons/2-car-garage.svg") no-repeat center;
+}
+.icon-kitchen-island {
+  width: 30px;
+  height: 30px;
+  background: url("https://ko.homes/wp-content/themes/ko-homes/assets/images/icons/kitchen-island.svg") no-repeat center;
+}
+.icon-covered-deck {
+  width: 30px;
+  height: 30px;
+  background: url("https://ko.homes/wp-content/themes/ko-homes/assets/images/icons/covered-deck.svg") no-repeat center;
+}
+.icon-oceanfront {
+  width: 30px;
+  height: 30px;
+  background: url("https://ko.homes/wp-content/themes/ko-homes/assets/images/icons/oceanfront.svg") no-repeat center;
+}
+.icon-ocean-views {
+  width: 30px;
+  height: 30px;
+  background: url("https://ko.homes/wp-content/themes/ko-homes/assets/images/icons/ocean-views.svg") no-repeat center;
+}
+.icon-fishing-access {
+  width: 30px;
+  height: 30px;
+  background: url("https://ko.homes/wp-content/themes/ko-homes/assets/images/icons/fishing-access.svg") no-repeat center;
+}
+.icon-breakfast-nook {
+  width: 30px;
+  height: 30px;
+  background: url("https://ko.homes/wp-content/themes/ko-homes/assets/images/icons/breakfast-nook.svg") no-repeat center;
+}
+.icon-walk-in-closet {
+  width: 30px;
+  height: 30px;
+  background: url("https://ko.homes/wp-content/themes/ko-homes/assets/images/icons/walk-in-closet.svg") no-repeat center;
+}
+.icon-deck {
+  width: 30px;
+  height: 30px;
+  background: url("https://ko.homes/wp-content/themes/ko-homes/assets/images/icons/deck.svg") no-repeat center;
+}
+.icon-walk-to-town {
+  width: 30px;
+  height: 30px;
+  background: url("https://ko.homes/wp-content/themes/ko-homes/assets/images/icons/walk-to-town.svg") no-repeat center;
+}
+.icon-sunrise-views {
+  width: 30px;
+  height: 30px;
+  background: url("https://ko.homes/wp-content/themes/ko-homes/assets/images/icons/sunrise-views.svg") no-repeat center;
+}
+.icon-chefs-kitchen {
+  width: 30px;
+  height: 30px;
+  background: url("https://ko.homes/wp-content/themes/ko-homes/assets/images/icons/chefs-kitchen.svg") no-repeat center;
+}
+.icon-bunk-room {
+  width: 30px;
+  height: 30px;
+  background: url("https://ko.homes/wp-content/themes/ko-homes/assets/images/icons/bunk-room.svg") no-repeat center;
+}
+.icon-outdoor-entertaining {
+  width: 30px;
+  height: 30px;
+  background: url("https://ko.homes/wp-content/themes/ko-homes/assets/images/icons/outdoor-entertaining.svg") no-repeat center;
+}
+.icon-rooftop-deck {
+  width: 30px;
+  height: 30px;
+  background: url("https://ko.homes/wp-content/themes/ko-homes/assets/images/icons/rooftop-deck.svg") no-repeat center;
+}
+.icon-outdoor-shower {
+  width: 30px;
+  height: 30px;
+  background: url("https://ko.homes/wp-content/themes/ko-homes/assets/images/icons/outdoor-shower.svg") no-repeat center;
+}
+.icon-sunrise-views {
+  width: 30px;
+  height: 30px;
+  background: url("https://ko.homes/wp-content/themes/ko-homes/assets/images/icons/sunrise-views.svg") no-repeat center;
+}
+.icon-game-room {
+  width: 30px;
+  height: 30px;
+  background: url("https://ko.homes/wp-content/themes/ko-homes/assets/images/icons/game-room.svg") no-repeat center;
+}
+.icon-fireplace {
+  width: 30px;
+  height: 30px;
+  background: url("https://ko.homes/wp-content/themes/ko-homes/assets/images/icons/fireplace.svg") no-repeat center;
+}
+.icon-balcony {
+  width: 30px;
+  height: 30px;
+  background: url("https://ko.homes/wp-content/themes/ko-homes/assets/images/icons/balcony.svg") no-repeat center;
+}
+.icon-beach-access {
+  width: 30px;
+  height: 30px;
+  background: url("https://ko.homes/wp-content/themes/ko-homes/assets/images/icons/beach-access.svg") no-repeat center;
+}
+.icon-360-views {
+  width: 30px;
+  height: 30px;
+  background: url("https://ko.homes/wp-content/themes/ko-homes/assets/images/icons/360-views.svg") no-repeat center;
+}
+.icon-arrow-upload {
+  width: 30px;
+  height: 30px;
+  background: url("https://ko.homes/wp-content/themes/ko-homes/assets/images/icons/arrow-upload.svg") no-repeat center;
+}
+.icon-arrow-down {
+  width: 30px;
+  height: 30px;
+  background: url("https://ko.homes/wp-content/themes/ko-homes/assets/images/icons/arrow-down.svg") no-repeat center;
+}
+.icon-Info {
+  width: 30px;
+  height: 30px;
+  background: url("https://ko.homes/wp-content/themes/ko-homes/assets/images/icons/Info.svg") no-repeat center;
+}
+.icon-wifi {
+  width: 30px;
+  height: 30px;
+  background: url("https://ko.homes/wp-content/themes/ko-homes/assets/images/icons/wifi.svg") no-repeat center;
+  background-size: cover;
+}
+.icon-umbrella {
+  width: 30px;
+  height: 30px;
+  background: url("https://ko.homes/wp-content/themes/ko-homes/assets/images/icons/umbrella-sun.svg") no-repeat center;
+  background-size: cover;
+}
+.icon-sunbed {
+  width: 30px;
+  height: 30px;
+  background: url("https://ko.homes/wp-content/themes/ko-homes/assets/images/icons/sunbed.svg") no-repeat center;
+  background-size: cover;
+}
+.icon-smart-tv {
+  width: 30px;
+  height: 30px;
+  background: url("https://ko.homes/wp-content/themes/ko-homes/assets/images/icons/smart-tv.svg") no-repeat center;
+  background-size: cover;
+}
+.icon-safety-box {
+  width: 30px;
+  height: 30px;
+  background: url("https://ko.homes/wp-content/themes/ko-homes/assets/images/icons/safety-box.svg") no-repeat center;
+  background-size: cover;
+}
+.icon-mountain {
+  width: 30px;
+  height: 30px;
+  background: url("https://ko.homes/wp-content/themes/ko-homes/assets/images/icons/mountain.svg") no-repeat center;
+  background-size: cover;
+}
+.icon-infinity-pool {
+  width: 30px;
+  height: 30px;
+  background: url("https://ko.homes/wp-content/themes/ko-homes/assets/images/icons/infinity-pool.svg") no-repeat center;
+  background-size: cover;
+}
+.icon-guest-ensuite {
+  width: 30px;
+  height: 30px;
+  background: url("https://ko.homes/wp-content/themes/ko-homes/assets/images/icons/guest-ensuite.svg") no-repeat center;
+  background-size: cover;
+}
+.icon-air-condition {
+  width: 30px;
+  height: 30px;
+  background: url("https://ko.homes/wp-content/themes/ko-homes/assets/images/icons/air-conditioner.svg") no-repeat center;
+  background-size: cover;
+}

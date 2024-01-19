@@ -1,0 +1,100 @@
+/*-----------------*\
+    Background Style
+\*-----------------*/
+
+.bg-img {
+  background-image: var(--img);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: cover;
+}
+
+.bg-side-img {
+  background-image: var(--img);
+  background-repeat: no-repeat;
+  background-size: 50%;
+  @include grid-sm-down{
+    background-image: none;
+  }
+  .col-6 {
+    @include grid-sm-up{
+      padding-right: 60px;
+    }
+  }
+  
+  &.side-left {
+    background-position: 0 100%;
+  }
+  &.side-right {
+    background-position: 100% 100%;
+  }
+  &.section{
+    @include grid-sm-down{
+      padding-top: 0;
+    }
+    > img{
+      margin-bottom: 50px;
+    }
+  }
+}
+
+.bg-overlay {
+  position: relative;
+  .container {
+    position: relative;
+    z-index: 1;
+  }
+  &:before {
+    content: "";
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    top: 0;
+    left: 0;
+  }
+
+  &-light {
+    &:before {
+      background-color: rgba(0, 0, 0, 0.1);
+    }
+  }
+  &-dark {
+    &:before {
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+  }
+}
+
+.overlay-white {
+  position: relative;
+  &:before {
+    content: "";
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    top: 0;
+    left: 0;
+  }
+}
+
+.bg-black {
+  background-color: #000 !important;
+}
+.bg-white {
+  background-color: #fff !important;
+}
+
+.bg-winter-haven {
+  background-color: $winter-haven;
+}
+
+.bg-dark {
+  background-color: $stretch-limo;
+}
+.bg-pinkest-white {
+  background-color: $pinkest-white;
+}

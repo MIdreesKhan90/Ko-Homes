@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_59" data-name="Rectangle 59" width="30" height="30" transform="translate(691 2339)" fill="#2b2e2e"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_3" data-name="Mask Group 3" transform="translate(-691 -2339)" clip-path="url(#clip-path)">
+    <g id="Entertainment_Chef_s_kitchen_icon" data-name="Entertainment_Chef&apos;s kitchen icon" transform="translate(690.852 2338.859)">
+      <rect id="Rectangle_3" data-name="Rectangle 3" width="29.035" height="16.412" rx="1.263" transform="translate(0.631 13.255)" fill="rgba(0,0,0,0)" stroke="#8e8e8e" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.947"/>
+      <rect id="Rectangle_4" data-name="Rectangle 4" width="16.412" height="8.838" transform="translate(6.944 20.83)" fill="rgba(0,0,0,0)" stroke="#8e8e8e" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.947"/>
+      <path id="Path_186" data-name="Path 186" d="M21.3.663a.331.331,0,0,0-.422.473A3.914,3.914,0,0,1,20.983,5,2.57,2.57,0,0,1,20.11,3.92a.331.331,0,0,0-.462-.189,3.429,3.429,0,0,0-2.009,3.176,3.821,3.821,0,0,0,7.643,0A7.035,7.035,0,0,0,21.305.657Z" fill="rgba(0,0,0,0)" stroke="#8e8e8e" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.947"/>
+      <path id="Path_187" data-name="Path 187" d="M25.88,11.362a.631.631,0,0,0-.631-.631H17.675a.631.631,0,0,0-.632.631v1.894H25.88Z" fill="rgba(0,0,0,0)" stroke="#8e8e8e" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.947"/>
+      <path id="Path_188" data-name="Path 188" d="M8.675.663a.331.331,0,0,0-.424.473A3.914,3.914,0,0,1,8.358,5a2.57,2.57,0,0,1-.873-1.077.331.331,0,0,0-.462-.189A3.429,3.429,0,0,0,5.016,6.91a3.821,3.821,0,0,0,7.643,0A7.035,7.035,0,0,0,8.682.661Z" fill="rgba(0,0,0,0)" stroke="#8e8e8e" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.947"/>
+      <path id="Path_189" data-name="Path 189" d="M13.255,11.362a.631.631,0,0,0-.631-.631H5.05a.631.631,0,0,0-.632.631v1.894h8.838Z" fill="rgba(0,0,0,0)" stroke="#8e8e8e" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.947"/>
+      <line id="Line_14" data-name="Line 14" x2="8.838" transform="translate(10.731 23.354)" fill="none" stroke="#8e8e8e" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.947"/>
+      <circle id="Ellipse_17" data-name="Ellipse 17" cx="1.263" cy="1.263" r="1.263" transform="translate(7.574 15.78)" fill="rgba(0,0,0,0)" stroke="#8e8e8e" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.947"/>
+      <circle id="Ellipse_18" data-name="Ellipse 18" cx="1.263" cy="1.263" r="1.263" transform="translate(20.199 15.78)" fill="rgba(0,0,0,0)" stroke="#8e8e8e" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.947"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,109 @@
+/*-----------------*\
+    Carousel Style
+\*-----------------*/
+.owl-carousel {
+  .owl-nav {
+    button.owl-next,
+    button.owl-prev {
+      position: absolute;
+      top: 50%;
+      color: #fff;
+      font-size: 44px;
+      margin-top: -45px;
+      &:hover {
+        background-color: transparent;
+      }
+    }
+    button.owl-next {
+      right: 15px;
+    }
+    button.owl-prev {
+      left: 15px;
+    }
+  }
+}
+
+.destination-carousel .owl-carousel.owl-theme.owl-loaded.owl-drag,
+.destination-carousel .owl-stage-outer,
+.destination-carousel .owl-stage,
+.destination-carousel .owl-item,
+.destination-carousel .item,
+.destination-carousel .owl-item,
+.destination-carousel .img-responsive{
+  @include grid-sm-up{
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.destination-carousel {
+  height: 100%;
+  .destination-carousel__item {
+    background-size: cover;
+    background-position: 50%;
+    height: 100%;
+    width: 100%;
+    min-height: 500px;
+  }
+  @include grid-sm-down{
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  .owl-nav {
+    button.owl-next,
+    button.owl-prev {
+      font-size: 60px;
+      margin-top: -30px;
+    }
+  }
+}
+.double-item-carousel,
+.triple-item-carousel {
+  .owl-nav {
+    button.owl-next,
+    button.owl-prev {
+      font-size: 40px;
+      margin-top: -20px;
+      color: $secondary-color;
+      &:hover {
+        color: $secondary-color;
+      }
+    }
+    button.owl-next {
+      right: -60px;
+      @include grid-md-down{
+        right: 10px;
+      }
+    }
+    button.owl-prev {
+      left: -60px;
+      @include grid-md-down{
+        left: 10px;
+      }
+    }
+  }
+}
+
+.gallery-carousel{
+  .item{
+    height: 320px;
+    img{
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .owl-nav button.owl-next,
+  .owl-nav button.owl-prev {
+    font-size: 44px;
+    margin-top: -45px;
+    text-shadow: 0px 0px 10px rgb(0 0 0 / 80%);
+  }
+}
+.wide-carousel {
+  .gallery-carousel .item {
+    height: 36vw;
+    min-height: 400px;
+  }
+}

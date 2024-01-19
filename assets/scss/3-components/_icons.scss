@@ -1,0 +1,224 @@
+/*-----------------*\
+    Icons Style
+\*-----------------*/
+
+.icon {
+  display: inline-block;
+  vertical-align: middle;
+
+  &-bed {
+    width: 20px;
+    height: 16px;
+    background: url($icons-path + "/bed.svg") no-repeat center;
+  }
+  &-bath {
+    width: 20px;
+    height: 18px;
+    background: url($icons-path + "/bath.svg") no-repeat center;
+  }
+  &-area {
+    width: 20px;
+    height: 17px;
+    background: url($icons-path + "/area.svg") no-repeat center;
+  }
+  &-play {
+    width: 30px;
+    height: 30px;
+    background: url($icons-path + "/play.svg") no-repeat center;
+  }
+  &-360 {
+    width: 30px;
+    height: 30px;
+    background: url($icons-path + "/360.svg") no-repeat center;
+    background-size: 100%;
+  }
+  &-pdf {
+    width: 30px;
+    height: 30px;
+    background: url($icons-path + "/pdf.svg") no-repeat center;
+  }
+  &-elevator {
+    width: 30px;
+    height: 30px;
+    background: url($icons-path + "/elevator.svg") no-repeat center;
+  }
+  &-2-car-garage {
+    width: 30px;
+    height: 30px;
+    background: url($icons-path + "/2-car-garage.svg") no-repeat center;
+  }
+  &-kitchen-island {
+    width: 30px;
+    height: 30px;
+    background: url($icons-path + "/kitchen-island.svg") no-repeat center;
+  }
+  &-covered-deck {
+    width: 30px;
+    height: 30px;
+    background: url($icons-path + "/covered-deck.svg") no-repeat center;
+  }
+  &-oceanfront {
+    width: 30px;
+    height: 30px;
+    background: url($icons-path + "/oceanfront.svg") no-repeat center;
+  }
+  &-ocean-views {
+    width: 30px;
+    height: 30px;
+    background: url($icons-path + "/ocean-views.svg") no-repeat center;
+  }
+  &-fishing-access {
+    width: 30px;
+    height: 30px;
+    background: url($icons-path + "/fishing-access.svg") no-repeat center;
+  }
+  &-breakfast-nook {
+    width: 30px;
+    height: 30px;
+    background: url($icons-path + "/breakfast-nook.svg") no-repeat center;
+  }
+  &-walk-in-closet {
+    width: 30px;
+    height: 30px;
+    background: url($icons-path + "/walk-in-closet.svg") no-repeat center;
+  }
+  &-deck {
+    width: 30px;
+    height: 30px;
+    background: url($icons-path + "/deck.svg") no-repeat center;
+  }
+  &-walk-to-town {
+    width: 30px;
+    height: 30px;
+    background: url($icons-path + "/walk-to-town.svg") no-repeat center;
+  }
+  &-sunrise-views {
+    width: 30px;
+    height: 30px;
+    background: url($icons-path + "/sunrise-views.svg") no-repeat center;
+  }
+  &-chefs-kitchen {
+    width: 30px;
+    height: 30px;
+    background: url($icons-path + "/chefs-kitchen.svg") no-repeat center;
+  }
+  &-bunk-room {
+    width: 30px;
+    height: 30px;
+    background: url($icons-path + "/bunk-room.svg") no-repeat center;
+  }
+  &-outdoor-entertaining {
+    width: 30px;
+    height: 30px;
+    background: url($icons-path + "/outdoor-entertaining.svg") no-repeat center;
+  }
+  &-rooftop-deck {
+    width: 30px;
+    height: 30px;
+    background: url($icons-path + "/rooftop-deck.svg") no-repeat center;
+  }
+  &-outdoor-shower {
+    width: 30px;
+    height: 30px;
+    background: url($icons-path + "/outdoor-shower.svg") no-repeat center;
+  }
+  &-sunrise-views {
+    width: 30px;
+    height: 30px;
+    background: url($icons-path + "/sunrise-views.svg") no-repeat center;
+  }
+  &-game-room {
+    width: 30px;
+    height: 30px;
+    background: url($icons-path + "/game-room.svg") no-repeat center;
+  }
+  &-fireplace {
+    width: 30px;
+    height: 30px;
+    background: url($icons-path + "/fireplace.svg") no-repeat center;
+  }
+  &-balcony {
+    width: 30px;
+    height: 30px;
+    background: url($icons-path + "/balcony.svg") no-repeat center;
+  }
+  &-beach-access {
+    width: 30px;
+    height: 30px;
+    background: url($icons-path + "/beach-access.svg") no-repeat center;
+  }
+  &-360-views {
+    width: 30px;
+    height: 30px;
+    background: url($icons-path + "/360-views.svg") no-repeat center;
+  }
+  &-arrow-upload {
+    width: 30px;
+    height: 30px;
+    background: url($icons-path + "/arrow-upload.svg") no-repeat center;
+  }
+  &-arrow-down {
+    width: 30px;
+    height: 30px;
+    background: url($icons-path + "/arrow-down.svg") no-repeat center;
+  }
+  &-Info {
+    width: 30px;
+    height: 30px;
+    background: url($icons-path + "/Info.svg") no-repeat center;
+  }
+  &-wifi {
+    width: 30px;
+    height: 30px;
+    background: url($icons-path + "/wifi.svg") no-repeat center;
+    background-size: cover;
+  }
+  &-umbrella {
+    width: 30px;
+    height: 30px;
+    background: url($icons-path + "/umbrella-sun.svg") no-repeat center;
+    background-size: cover;
+  }
+  &-sunbed {
+    width: 30px;
+    height: 30px;
+    background: url($icons-path + "/sunbed.svg") no-repeat center;
+    background-size: cover;
+  }
+  &-smart-tv {
+    width: 30px;
+    height: 30px;
+    background: url($icons-path + "/smart-tv.svg") no-repeat center;
+    background-size: cover;
+  }
+  &-safety-box {
+    width: 30px;
+    height: 30px;
+    background: url($icons-path + "/safety-box.svg") no-repeat center;
+    background-size: cover;
+  }
+  &-mountain {
+    width: 30px;
+    height: 30px;
+    background: url($icons-path + "/mountain.svg") no-repeat center;
+    background-size: cover;
+  }
+  &-infinity-pool {
+    width: 30px;
+    height: 30px;
+    background: url($icons-path + "/infinity-pool.svg") no-repeat center;
+    background-size: cover;
+  }
+  &-guest-ensuite {
+    width: 30px;
+    height: 30px;
+    background: url($icons-path + "/guest-ensuite.svg") no-repeat center;
+    background-size: cover;
+  }
+  &-air-condition {
+    width: 30px;
+    height: 30px;
+    background: url($icons-path + "/air-conditioner.svg") no-repeat center;
+    background-size: cover;
+  }
+}

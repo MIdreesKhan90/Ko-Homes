@@ -1,0 +1,20 @@
+.blog-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  border-bottom: 1px solid $quail-valley;
+  padding: 25px 0;
+  .left {
+    h6 {
+      color: $nefarious-blue;
+    }
+    p {
+      color: $stretch-limo;
+    }
+  }
+  i {
+    font-size: 24px;
+    margin-left: 80px;
+  }
+}

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_55" data-name="Rectangle 55" width="30" height="30" transform="translate(415 2382)" fill="#2b2e2e"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_6" data-name="Mask Group 6" transform="translate(-415 -2382)" clip-path="url(#clip-path)">
+    <g id="Living_Spaces_Breakfast_nook_icon" data-name="Living Spaces_Breakfast nook icon" transform="translate(414.976 2382.038)">
+      <path id="Path_419" data-name="Path 419" d="M29.423,1.547.625,11.98" fill="rgba(0,0,0,0)" stroke="#8e8e8e" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.939"/>
+      <path id="Path_420" data-name="Path 420" d="M3.131,11.08V27.255a1.253,1.253,0,0,0,1.253,1.253H29.423" fill="rgba(0,0,0,0)" stroke="#8e8e8e" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.939"/>
+      <path id="Path_421" data-name="Path 421" d="M13.146,15.98H23.161" fill="rgba(0,0,0,0)" stroke="#8e8e8e" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.939"/>
+      <path id="Path_422" data-name="Path 422" d="M11.268,20.989H25.039" fill="rgba(0,0,0,0)" stroke="#8e8e8e" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.939"/>
+      <path id="Path_423" data-name="Path 423" d="M16.277,15.98l-3.131,9.982" fill="rgba(0,0,0,0)" stroke="#8e8e8e" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.939"/>
+      <path id="Path_424" data-name="Path 424" d="M20.033,15.98l3.131,9.982" fill="rgba(0,0,0,0)" stroke="#8e8e8e" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.939"/>
+    </g>
+  </g>
+</svg>

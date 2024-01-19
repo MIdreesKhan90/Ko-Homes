@@ -1,0 +1,68 @@
+//------------------------------- Variables
+//------------------------------- Font-size
+$font-size-1: 38px;
+$font-size-2: 28px;
+$font-size-3: 24px;
+$font-size-4: 21px;
+$font-size-5: 18px;
+$font-size-6: 14px;
+$font-size-7: 12px;
+//------------------------------- Colors
+$quail-valley: #ab9472;
+$dugong: #707070;
+$stretch-limo: #2b2e2e;
+$nefarious-blue: #c4cfd5;
+$stieglitz-silver: #8e8e8e;
+$winter-haven: #e1e7ea;
+$pinkest-white: #f9f7f5;
+
+// Social
+$facebook: #3b5998;
+$twitter: #1da1f2;
+$linkedin: #0077b5;
+$youtube: #cd201f;
+$grey-light: #fafafa;
+
+// Base
+$main-font-family: "brandon-grotesque", sans-serif;
+$secondary-font-family: "Roboto", sans-serif;
+$main-font-size: $font-size-6;
+
+$primary-color: $quail-valley;
+$secondary-color: $stieglitz-silver;
+$primary-font-color: $quail-valley;
+$secondary-font-color: $stieglitz-silver;
+
+$images-path: "../images";
+$icons-path: $images-path + "/icons";
+
+$header1: $font-size-1;
+$header2: $font-size-2;
+$header3: $font-size-3;
+$header4: $font-size-4;
+$header5: $font-size-5;
+$header6: $font-size-6;
+$para-size: $font-size-5;
+
+// ------------------------ Responsive Quries
+$sm-em: "only screen and (min-width: 36em)"; // ≥ 576px
+$md-em: "only screen and (min-width: 48em)"; // ≥ 768px
+$lg-em: "only screen and (min-width: 62em) "; // ≥ 992px
+$xl-em: "only screen and (min-width: 75em)"; // ≥ 1200px
+
+$xs-only: "(max-width: 575.98px)";
+$x-xs-only: "(max-width: 424.98px)";
+$x-x-xs-only: "(max-width: 374.98px)";
+$sm-only: "(min-width: 576px) and (max-width: 767.98px)";
+$md-only: "(min-width: 768px) and (max-width: 991.98px)";
+$lg-only: "(min-width: 992px) and (max-width: 1199.98px)";
+$xl-only: "(min-width: 1680px)";
+
+$xl-max: "(min-width: 1580px)";
+$xxl-max: "(min-width: 1569.98px) and (max-width: 1800px)";
+
+$sm-down: "only screen and (max-width: 767.98px)";
+$sm-up: "only screen and (min-width: 767.98px)";
+$md-down: "only screen and (max-width: 991.98px)";
+$md-up: "only screen and (min-width: 991.98px)";
+$lg-down: "only screen and (max-width: 1199.98px)";

@@ -1,0 +1,116 @@
+
+
+.accordion-main {
+  margin-bottom: 70px;
+  @include grid-sm-down{
+    margin-bottom: 35px;
+  }
+  .accordion {
+    margin-bottom: 5px;
+    .head {
+      width: 100%;
+      border: none;
+      background: none;
+      border-bottom: 1px solid $quail-valley;
+      padding: 25px 30px 25px 0;
+      font-size: 14px;
+      font-weight: bold;
+      color: #2b2e2e;
+      text-transform: uppercase;
+      transition: 0.5s;
+      position: relative;
+      cursor: pointer;
+      letter-spacing: 1px;
+      i {
+        position: absolute;
+        right: 0px;
+        top: 20px;
+        width: 15px;
+        transition: all 0.4s ease;
+        background-position: 50%;
+        background-size: contain;
+      }
+    }
+    .panel {
+      display: none;
+      padding-top: 30px;
+      p {
+        max-width: 904px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+    &.active {
+      .head {
+        i {
+          transform: rotate(180deg);
+        }
+      }
+    }
+  }
+}
+.accordion-section .section-title {
+  letter-spacing: 2px;
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+
+.accordion-main .accordion .panel ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  column-count: 2;
+  max-width: 904px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+    li{
+      position: relative;
+      padding-left: 30px;
+      margin-bottom: 20px;
+      break-inside: avoid-column;
+      font-size: 18px;
+      color: #8e8e8e;
+      font-weight: 300;
+      &::before {
+        position: absolute;
+        left: 0;
+        top: 8px;
+        content: "";
+        width: 6px;
+        height: 6px;
+        border-radius: 50%;
+        background-color: $primary-color;
+      }
+    }
+}
+
+.accordion-main .accordion .panel ol{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  column-count: 2;
+  max-width: 904px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  li{
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 20px;
+    break-inside: avoid-column;
+    font-size: 18px;
+    color: #8e8e8e;
+    font-weight: 300;
+    &::before {
+      position: absolute;
+      left: 0;
+      top: 8px;
+      content: "";
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background-color: $primary-color;
+    }
+  }
+}
